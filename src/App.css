@@ -1,5 +1,17 @@
+body {
+  font-family: sans-serif;
+  background-color: #282c34;
+  color: #d3d3d3;
+}
+
 .App {
-  text-align: center;
+  width:70vw;
+  border: 1px solid #555;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  padding: 3rem;
+  height: 60vh;
 }
 
 .App-logo {
@@ -14,18 +26,106 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-user-row {
+  display: flex;
+  padding: 3px;
+}
+
+.App-user-row  div:first-child {
+  width: 10rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+
+
+/* CSS */
+.app-submit-button {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.0;
+  margin: 0;
+  outline: none;
+  padding: 5px .5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.app-submit-button {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.app-submit-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.app-submit-button:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.app-table-row {
+  display: flex;
+  margin-top: 3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding-bottom: 3px;
+  width: 40vw;
+  margin-bottom: 3px;
+}
+
+.app-table-row div {
+  margin-right: 1rem;
+  width: 10rem;
+}
+
+.app-data-table {
+  max-height: 10rem;
+  overflow-y: scroll;
+  width: 40vw;
+}
+
+.app-data-row {
+  display: flex;
+}
+
+.app-data-row div {
+  width: 10rem;
+  padding: 3px;
+  margin-right: 1rem;
+}
+.app-data-table > div:nth-child(even) {
+  background: rgba(0, 0, 0, .2);
+}
+
+
 .App-link {
-  color: #61dafb;
+  color: rgba(255, 255, 255, .25);
+  cursor: pointer;
+}
+.App-link:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
