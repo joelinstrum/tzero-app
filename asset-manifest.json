@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/tzero-app/static/css/main.184cb5f0.chunk.css",
-    "main.js": "/tzero-app/static/js/main.4e137871.chunk.js",
-    "main.js.map": "/tzero-app/static/js/main.4e137871.chunk.js.map",
+    "main.css": "/tzero-app/static/css/main.1b2ac55d.chunk.css",
+    "main.js": "/tzero-app/static/js/main.1e5b765b.chunk.js",
+    "main.js.map": "/tzero-app/static/js/main.1e5b765b.chunk.js.map",
     "runtime-main.js": "/tzero-app/static/js/runtime-main.0a6a96de.js",
     "runtime-main.js.map": "/tzero-app/static/js/runtime-main.0a6a96de.js.map",
-    "static/js/2.922098d6.chunk.js": "/tzero-app/static/js/2.922098d6.chunk.js",
-    "static/js/2.922098d6.chunk.js.map": "/tzero-app/static/js/2.922098d6.chunk.js.map",
+    "static/js/2.3cfa656e.chunk.js": "/tzero-app/static/js/2.3cfa656e.chunk.js",
+    "static/js/2.3cfa656e.chunk.js.map": "/tzero-app/static/js/2.3cfa656e.chunk.js.map",
     "static/js/3.0d220eb5.chunk.js": "/tzero-app/static/js/3.0d220eb5.chunk.js",
     "static/js/3.0d220eb5.chunk.js.map": "/tzero-app/static/js/3.0d220eb5.chunk.js.map",
     "index.html": "/tzero-app/index.html",
-    "static/css/main.184cb5f0.chunk.css.map": "/tzero-app/static/css/main.184cb5f0.chunk.css.map",
-    "static/js/2.922098d6.chunk.js.LICENSE.txt": "/tzero-app/static/js/2.922098d6.chunk.js.LICENSE.txt"
+    "static/css/main.1b2ac55d.chunk.css.map": "/tzero-app/static/css/main.1b2ac55d.chunk.css.map",
+    "static/js/2.3cfa656e.chunk.js.LICENSE.txt": "/tzero-app/static/js/2.3cfa656e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0a6a96de.js",
-    "static/js/2.922098d6.chunk.js",
-    "static/css/main.184cb5f0.chunk.css",
-    "static/js/main.4e137871.chunk.js"
+    "static/js/2.3cfa656e.chunk.js",
+    "static/css/main.1b2ac55d.chunk.css",
+    "static/js/main.1e5b765b.chunk.js"
   ]
 }
